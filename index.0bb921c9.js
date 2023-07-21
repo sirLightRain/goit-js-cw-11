@@ -1,0 +1,2 @@
+options={method:"POST",body:JSON.stringify({title:"group 85",body:"group 85 first post",userId:101}),headers:{"Content-type":"application/json"}},fetch("https://jsonplaceholder.typicode.com/posts",options).then((function(o){if(console.log(o),!o.ok)throw new Error(o.statusText);return o.json()})).then((function(o){return console.log(o)})).catch((function(o){return console.log(o)})),fetch("https://jsonplaceholder.typicode.com/posts/101").then((function(o){return o.json()})).then((function(o){return console.log(o)}));
+//# sourceMappingURL=index.0bb921c9.js.map
